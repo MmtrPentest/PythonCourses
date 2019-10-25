@@ -8,3 +8,4 @@ global_a =5
 print(global_a)
 print(update_global_a())
 print(global_a)
+
