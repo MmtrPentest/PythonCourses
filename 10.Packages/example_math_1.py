@@ -12,3 +12,7 @@ print(circle.len(10))
 from figures.rectangle import area
 
 print(area(5,10))
+
+from figures import math
+print(math.pi)
+
