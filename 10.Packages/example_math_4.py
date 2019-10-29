@@ -25,3 +25,4 @@ print(square_len.__doc__)
 print(square_len.__class__)
 
 print("*"*60)
+
