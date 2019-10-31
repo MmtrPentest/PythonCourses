@@ -5,9 +5,9 @@ import re
 
 text = 'Hello, world!'
 
-pattern = r'(?i:h)ello(?#туткомментарий),'
+pattern = r'(?i:h)ello,'
 print(re.sub(pattern,'rock the',text))
-pattern = r'(?i)hello(?#туткомментарий), (world)!'
+pattern = r'(?i)hello, (world)!'
 print(re.sub(pattern,r'\1',text))
 
 text = 'Hello. Меня зовут Вася'

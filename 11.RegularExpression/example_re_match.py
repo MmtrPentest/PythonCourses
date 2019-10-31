@@ -4,7 +4,6 @@
 import re
 
 text = 'Hello, world!'
-
 pattern = r'([\S]+)(,\s)([\S]+)!'
 
 print(re.match(pattern,text))
