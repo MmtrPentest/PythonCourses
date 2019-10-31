@@ -26,5 +26,5 @@ print(re.findall(pattern, text)) # ['зовут Вася ']
 pattern = r'зовут\s([А-я]+)\s'
 print(re.findall(pattern, text)) # ['Вася']
 
-pattern = r'[^\w]'
+pattern = r'^(.+)\b'
 print(re.findall(pattern, text))
