@@ -13,3 +13,6 @@ def len(a):
 
 def area(a):
     return a*a
+
+if __name__ == "__main__":
+    print('Модуль работает только в составе пакета')

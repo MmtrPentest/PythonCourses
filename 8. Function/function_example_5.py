@@ -13,5 +13,11 @@ def div(a,b):
 def minus(a,b):
     return a-b
 
-print('Сумма 5 и 4 будет равна = ' + sum(5,4))
+def summa(*args):
+    result = 0
+    for arg in args:
+        result += arg
+    return result
 
+print('Сумма 5 и 4 будет равна = ' + str(sum(5,4)))
+print(summa(5,3,4,5,6))
