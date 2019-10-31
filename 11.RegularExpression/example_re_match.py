@@ -9,4 +9,6 @@ pattern = '([\S]+)(,\s)([\S]+)!'
 
 print(re.match(pattern,text))
 print(re.match(pattern,text).group())
+print(re.match(pattern,text).group(3))
 print(re.match(pattern,text).groups())
+
