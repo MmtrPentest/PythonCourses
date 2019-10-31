@@ -23,7 +23,6 @@ print(re.findall(pattern, text)) # ['Вася']
 pattern = r'^.{4}'
 pattern = r'.+ (.+)$'
 pattern = r'[^А-я0-9 .]+'
-#print(re.findall(pattern, text))
 
 
 

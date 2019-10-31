@@ -5,7 +5,7 @@ import re
 
 text = 'Hello, world!'
 
-pattern = '([\S]+)(,\s)([\S]+)!'
+pattern = r'([\S]+)(,\s)([\S]+)!'
 
 print(re.match(pattern,text))
 print(re.match(pattern,text).group())
