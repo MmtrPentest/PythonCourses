@@ -26,6 +26,14 @@ class Dog: # класс
     def get_legs(self):
         return self.legs
 
+    def set_tail(self, tail):
+        self.tail = tail
+        if self.tail:
+            self.tail_str = 'с хвостом'
+        else:
+            self.tail_str = 'без хвоста'
+
+
 
 dog1 = Dog('Шарик', 1, 1, 4, True)
 dog2 = Dog('Барбос', 1, 1, 3, False)
