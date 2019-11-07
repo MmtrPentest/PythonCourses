@@ -22,3 +22,8 @@ dog2 = Dog('Барбос')
 dog2.set_legs(3)
 print('Собаку по кличке {} прооперировали и теперь он c {} ногами'.format(dog2.name, dog2.get_legs()))
 
+dog2.legs=5
+print('Собаку по кличке {} прооперировали и теперь он c {} ногами'.format(dog2.name, dog2.get_legs()))
+
+dog2._legs=5 # не делайте так никогда
+print('Собаку по кличке {} прооперировали и теперь он c {} ногами'.format(dog2.name, dog2.get_legs()))
