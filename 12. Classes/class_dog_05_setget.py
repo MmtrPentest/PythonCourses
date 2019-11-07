@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
+'''
+Инкапсуляция
+'''
 class Dog: # класс
     def __init__(self, name, head, body, legs, tail): # конструктор класса
         self.name = name
@@ -21,12 +23,8 @@ class Dog: # класс
         else:
             print('Ног должно быть от 0 до 4')
 
-    def set_tail(self, tail):
-        self.tail = tail
-        if self.tail:
-            self.tail_str = 'с хвостом'
-        else:
-            self.tail_str = 'без хвоста'
+    def get_legs(self):
+        return self.legs
 
 
 dog1 = Dog('Шарик', 1, 1, 4, True)
